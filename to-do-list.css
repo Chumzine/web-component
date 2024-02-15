@@ -1,0 +1,8 @@
+.first, .second, .third,
+.fourth, .fifth, .sixth {
+    display: flex;
+}
+.second svg, .third svg,
+.fourth svg, .fifth svg {
+    fill: #b5ea81;
+}
