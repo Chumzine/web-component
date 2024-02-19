@@ -2,15 +2,17 @@ class TimeButton extends ListApp {
     static name = 'time-button';
     constructor() {
         super()
-    }
-    connectedCallback() {
-        this.shadow.innerHTML = `
-        <link rel="stylesheet" href="time-button.css"/>
-        <slot></slot>
-        <slot></slot>
-        <slot></slot>
-        <slot></slot> 
-        `
+        this.shadow.innerHTML = `<style>
+        .btn {
+            // border: 1px solid grey;
+            padding: 10px 15px;
+            border-radius: 15px;
+            display: inline-block;
+            margin-right: 10px; 
+        }
+    </style>
+    <div class="btn"><slot></slot></div>
+    `;
     }
 }
 

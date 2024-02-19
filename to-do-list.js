@@ -5,15 +5,12 @@ class ToDoList extends ListApp {
     }
     connectedCallback() {
         this.shadow.innerHTML = `
-        <link rel="stylesheet" href="to-do-list.css"/>
-        <div class="list">
         <slot></slot>
         <slot></slot>
         <slot></slot>
         <slot></slot>
         <slot></slot>
         <slot></slot>
-        </div>
         `
     }
 }

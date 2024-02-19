@@ -1,7 +1,24 @@
-.btn-1, .btn-2, .btn-3, .btn-4 {
-    border: none;
-    padding: 10px;
-    border-radius: 15px;
+.add-task {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.btn-1, .btn-2 {
+    /* border: 1px solid grey; */
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.btn-1 {
+    margin-right: 15px;
+}
+.btn-3 {
+    margin-right: 10px;
+    padding: 10px 6px;
+    border-radius: 25px;
+}
+.btn-4 {
+    padding: 10px 4px;
+    border-radius: 25px;
 }
 .btn-1 {
     background-color: rgb(245, 237, 132);

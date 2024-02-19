@@ -1,6 +1,13 @@
+to-do-list p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+}
 .first, .second, .third,
 .fourth, .fifth, .sixth {
     display: flex;
+    gap: 15px;
+    align-items: center;
 }
 .second svg, .third svg,
 .fourth svg, .fifth svg {
